@@ -1,15 +1,22 @@
 .container {
+  margin: 2% 3.5%;
   padding: 0 2rem;
 }
 
 .main {
   min-height: 100vh;
   padding: 4rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-content: center;
+  /*min-height: 100vh;
+  padding: 4rem 0;
   flex: 1;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-start;
+  align-items: center;*/
 }
 
 .footer {
@@ -28,32 +35,61 @@
   flex-grow: 1;
 }
 
-.title a {
-  color: #0070f3;
-  text-decoration: none;
+.brand {
+  font-weight: 800;
+  color: black;
 }
 
-.title a:hover,
-.title a:focus,
-.title a:active {
-  text-decoration: underline;
+.hoverAnimation {
+  display: inline-block;
+  position: relative;
+  color: black;
+}
+
+.hoverAnimation:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: black;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.hoverAnimation:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
 }
 
 .title {
   margin: 0;
   line-height: 1.15;
   font-size: 4rem;
-}
-
-.title,
-.description {
-  text-align: center;
+  font-weight: 700;
+  letter-spacing: -2px;
 }
 
 .description {
-  margin: 4rem 0;
-  line-height: 1.5;
-  font-size: 1.5rem;
+  font-size: 2rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+
+a.cta {
+  color: white;
+  background-color: black;
+  border-radius: 50px;
+  padding: 1rem 1.5rem;
+  margin-top: 0.5rem;
+  transition: transform 250ms;
+}
+
+a.cta:hover {
+  box-shadow: 0 0.5em 0.5em -0.4em;
+  transform: translateY(-5px);
 }
 
 .code {
