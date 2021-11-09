@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import stylesComponent from '../styles/Component.module.css'
 
 export default function Home() {
   return (
@@ -86,13 +87,15 @@ export default function Home() {
           <Image src="/img/tool-figma.png" alt="img-figma-logo" width={182} height={182} className={styles.smallImg} />
           <Image src="/img/tool-adobexd.png" alt="img-adobexd-logo" width={182} height={182} className={styles.smallImg} />
         </div>
-        <div>
+        <div>  
           <h3 className={styles.toolText}>Design and<br/>dev tools I use</h3>
         </div>
       </div>
 
       <div className={styles.work} id="work">
-        
+        <div className={stylesComponent.card}>
+          <Image src="" alt="component-card" />
+        </div>
       </div>
 
       <footer className={styles.footer}>
