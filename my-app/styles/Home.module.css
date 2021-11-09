@@ -1,11 +1,11 @@
 .container {
   margin: 0 3.5%;
-  padding: 0 2rem;
 }
 
 .main {
+  background-image: url("/img/bg-full.jpg");
+  background-size: cover;
   min-height: 100vh;
-  padding: 4rem 0;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -17,6 +17,10 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;*/
+}
+
+.mainText {
+  margin-top: 20%;
 }
 
 .footer {
@@ -92,6 +96,27 @@ a.cta:hover {
   transform: translateY(-5px);
 }
 
+.tools {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.toolImgs {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.smallImg {
+  margin-right: 1rem;
+}
+
+.toolText {
+  text-align: right;
+  font-size: 2rem;
+}
 .code {
   background: #fafafa;
   border-radius: 5px;
@@ -148,5 +173,20 @@ a.cta:hover {
   .grid {
     width: 100%;
     flex-direction: column;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .tools {
+    display: flex;
+    flex-direction: column;
+  }
+  .toolImgs {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .toolText {
+    text-align: center;
   }
 }
