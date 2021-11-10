@@ -1,11 +1,7 @@
-.container {
-  margin: 0 3.5%;
-}
-
 .main {
   background-image: url("/img/bg-full.jpg");
   background-size: cover;
-  min-height: 100vh;
+  min-height: 90vh;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -20,7 +16,11 @@
 }
 
 .mainText {
-  margin-top: 20%;
+  margin: 20% 10% 0;
+}
+
+.work {
+  margin: 7% 10% 0;
 }
 
 .footer {
@@ -97,6 +97,7 @@ a.cta:hover {
 }
 
 .tools {
+  margin: 5% 10% 7%;
   display: flex;
   flex-direction: row;
   align-items: center;

@@ -20,7 +20,7 @@ export default function Home() {
               justify-between
               w-full
               py-4
-              px-8
+              
               md:py-0
               text-lg text-gray-700
               bg-white
@@ -94,7 +94,9 @@ export default function Home() {
 
       <div className={styles.work} id="work">
         <div className={stylesComponent.card}>
-          <Image src="" alt="component-card" />
+          <Image src="/img/soundmoods-thumb.jpg" alt="component-card" width={688} height={279} className={stylesComponent.cardImg} />
+          <p className={stylesComponent.cardTitle}>Sound Moods</p>
+          <p className={stylesComponent.cardTag}>UI</p>
         </div>
       </div>
 

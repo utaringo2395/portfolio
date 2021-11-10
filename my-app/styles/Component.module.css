@@ -1,7 +1,7 @@
 .card {
   max-width: 730px;
   min-width: 288px;
-  padding: 0.5rem;
+  padding: 1rem;
   margin: 0.85rem;
   border: 1px solid black;
   border-radius: 2px;
@@ -11,4 +11,23 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+.cardImg {
+  margin-top: 10px;
+}
+
+.cardTitle {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 1.5rem;
+  margin: 1rem 0 0.5rem;
+}
+
+.cardTag {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  color: white;
+  background: black;
+  padding: 0.75rem 1.75rem;
+  border-radius: 50px;
 }
