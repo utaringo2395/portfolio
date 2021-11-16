@@ -79,7 +79,7 @@ export default function about() {
 
       <main className={stylesAbout.mainAbout}>
         <div className={stylesAbout.mainTextAbout}>
-          <h1 className={styles.title}>I'm Mariana</h1>
+          <h1 className={styles.title}> I'm Mariana</h1>
           <p className={styles.description}>
             Web Designer & aspiring Front-end Developer.
           </p>
