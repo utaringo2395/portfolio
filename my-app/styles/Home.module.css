@@ -21,6 +21,10 @@
 
 .work {
   margin: 7% 10% 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .footer {
@@ -177,7 +181,16 @@ a.cta:hover {
   }
 }
 
-@media (max-width: 767.98px) {
+@media (max-width: 768px) {
+  .main {
+    background-image: url("/img/bg-768.jpg");
+    background-size: cover;
+  }
+
+  .mainText {
+    margin: 25% 10% 0;
+  }
+
   .tools {
     display: flex;
     flex-direction: column;
@@ -189,5 +202,30 @@ a.cta:hover {
   }
   .toolText {
     text-align: center;
+  }
+}
+
+@media (max-width: 576px) {
+  .main {
+    background-image: url("/img/bg-576.jpg");
+    background-size: cover;
+  }
+
+  .mainText {
+    margin: 35% 10% 0;
+  }
+
+  .title {
+    margin: 0;
+    line-height: 1.15;
+    font-size: 3rem;
+    font-weight: 700;
+    letter-spacing: -2px;
+  }
+
+  .description {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
   }
 }
