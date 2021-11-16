@@ -115,6 +115,29 @@ export default function about() {
               <i>Startup Weekend Aguascalientes (2016)</i>
             </li>
           </ul>
+          <br />
+          <p className={stylesAbout.bodyText}>
+            I’ve learned HTML and CSS with online courses and help from fellow
+            friends and work colleagues. Recently learning JS and some other
+            libraries, such as Vue, React, and React frameworks like Next.js
+          </p>
+          <br />
+          <p classsName={stylesAbout.bodyText}>
+            When I’m not working, I like to do some other activities, like
+            cooking and eating stuff I can make with my kitchen appliances
+            (that’s 100% an adulting thing). Petting and smooching my schnauzer
+            doggo, Teo. And singing, nothing formal, I just enjoy singing anime
+            songs or something from the Yeah Yeah Yeahs as I do some other
+            stuff.
+          </p>
+          <br />
+          <p classsName={stylesAbout.bodyText}>
+            This is just a little bit about me! Go and check out some of my{" "}
+            <a href="#" className={stylesAbout.workLink}>
+              work
+            </a>{" "}
+            :)
+          </p>
         </div>
       </main>
     </div>

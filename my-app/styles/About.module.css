@@ -18,3 +18,13 @@
   margin-left: 5%;
   margin-bottom: 15px;
 }
+
+a.workLink {
+  color: #1d2fb0;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.workLink:hover {
+  text-decoration: underline;
+}
