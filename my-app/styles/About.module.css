@@ -1,0 +1,20 @@
+.mainAbout {
+  flex-direction: column;
+  align-items: flex-start;
+  align-content: center;
+}
+
+.mainTextAbout {
+  margin: 5% 10% 0;
+}
+
+.bodyText {
+  margin-right: 38%;
+}
+
+.quoteText {
+  color: #1d2fb0;
+  margin-right: 38%;
+  margin-left: 5%;
+  margin-bottom: 15px;
+}

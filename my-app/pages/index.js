@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
+import Link from "next/link";
 import styles from "../styles/Home.module.css";
 import stylesComponent from "../styles/Component.module.css";
 import { useEffect } from "react";
@@ -59,7 +60,7 @@ export default function Home() {
           </svg>
 
           <div
-            className="hidden w-full md:flex md:items-center md:w-auto"
+            className="hidden w-full md:flex md:flex-col md:items-center md:w-auto"
             id="menu"
           >
             <ul
@@ -71,12 +72,12 @@ export default function Home() {
                   md:pt-0"
             >
               <li className={styles.hoverAnimation}>
-                <a className="md:p-4 py-2 block" href="#">
+                <a className="md:p-4 py-2 block" href="/about">
                   about me
                 </a>
               </li>
               <li className={styles.hoverAnimation}>
-                <a className="md:p-4 py-2 block" href="#">
+                <a className="md:p-4 py-2 block" href="/contact">
                   contact
                 </a>
               </li>
@@ -98,53 +99,64 @@ export default function Home() {
       </main>
 
       <div className={styles.tools}>
-        <div className={styles.toolImgs}>
-          <Image
-            src="/img/tool-html.png"
-            alt="img-html-logo"
-            width={150}
-            height={150}
-            className={styles.smallImg}
-          />
-          <Image
-            src="/img/tool-css.png"
-            alt="img-css-logo"
-            width={150}
-            height={150}
-            className={styles.smallImg}
-          />
-          <Image
-            src="/img/tool-figma.png"
-            alt="img-figma-logo"
-            width={150}
-            height={150}
-            className={styles.smallImg}
-          />
-          <Image
-            src="/img/tool-adobexd.png"
-            alt="img-adobexd-logo"
-            width={150}
-            height={150}
-            className={styles.smallImg}
-          />
-        </div>
-        <div>
-          <h3 className={styles.toolText}>Design and dev tools I use</h3>
-        </div>
+        <Image
+          src="/img/tool-html.png"
+          alt="img-html-logo"
+          width={150}
+          height={150}
+          className={styles.smallImg}
+        />
+        <Image
+          src="/img/tool-css.png"
+          alt="img-css-logo"
+          width={150}
+          height={150}
+          className={styles.smallImg}
+        />
+        <Image
+          src="/img/tool-sass.png"
+          alt="img-sass-logo"
+          width={150}
+          height={150}
+          className={styles.smallImg}
+        />
+        <Image
+          src="/img/tool-bootstrap.png"
+          alt="img-bootstrap-logo"
+          width={150}
+          height={150}
+          className={styles.smallImg}
+        />
+        <Image
+          src="/img/tool-vscode.png"
+          alt="img-vscode-logo"
+          width={150}
+          height={150}
+          className={styles.smallImg}
+        />
+        <Image
+          src="/img/tool-figma.png"
+          alt="img-figma-logo"
+          width={150}
+          height={150}
+          className={styles.smallImg}
+        />
       </div>
 
       <div className={styles.work} id="work">
-        <div className={stylesComponent.card}>
-          <Image
-            src="/img/soundmoods-thumb.jpg"
-            alt="component-card"
-            width={688}
-            height={279}
-            className={stylesComponent.cardImg}
-          />
-          <p className={stylesComponent.cardTitle}>Sound Moods</p>
-          <p className={stylesComponent.cardTag}>UI</p>
-        </div>
+        <Link href="/soundMoods">
+          <div className={stylesComponent.card}>
+            <Image
+              src="/img/soundmoods-thumb.jpg"
+              alt="component-card"
+              width={688}
+              height={279}
+              className={stylesComponent.cardImg}
+            />
+            <p className={stylesComponent.cardTitle}>Sound Moods</p>
+            <p className={stylesComponent.cardTag}>UI</p>
+          </div>
+        </Link>
         <div className={stylesComponent.cardMini}>
           <Image
             src="/img/bakubeach-thumb.jpg"
@@ -209,22 +221,13 @@ export default function Home() {
             height={279}
             className={stylesComponent.cardImg}
           />
-          <p className={stylesComponent.cardTitle}>Sound Moods</p>
-          <p className={stylesComponent.cardTag}>UI</p>
+          <p className={stylesComponent.cardTitle}>Components</p>
+          <p className={stylesComponent.cardTag}>UI/Vue.js</p>
         </div>
       </div>
 
       <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{" "}
-          <span className={styles.logo}>
-            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-          </span>
-        </a>
+        <p className="text-center">©2021 mmmacias</p>
       </footer>
     </div>
   );

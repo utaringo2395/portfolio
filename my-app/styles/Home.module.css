@@ -20,7 +20,7 @@
 }
 
 .work {
-  margin: 7% 10% 0;
+  margin: 7% 10% 5%;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -31,16 +31,10 @@
   display: flex;
   flex: 1;
   padding: 2rem 0;
+  margin-bottom: 2%;
   border-top: 1px solid #eaeaea;
   justify-content: center;
   align-items: center;
-}
-
-.footer a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-grow: 1;
 }
 
 .brand {
@@ -101,7 +95,7 @@ a.cta:hover {
 }
 
 .tools {
-  margin: 5% 10% 7%;
+  margin: 5% 10% 12%;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -111,7 +105,7 @@ a.cta:hover {
 .toolImgs {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: center;
 }
 
 .smallImg {
@@ -191,6 +185,12 @@ a.cta:hover {
     margin: 25% 10% 0;
   }
 
+  .hoverAnimation {
+    display: block;
+    position: relative;
+    color: black;
+  }
+
   .tools {
     display: flex;
     flex-direction: column;
@@ -199,6 +199,7 @@ a.cta:hover {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-evenly;
   }
   .toolText {
     text-align: center;
