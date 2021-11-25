@@ -1,22 +1,21 @@
 .main {
   display: flex;
   flex-direction: row;
-  margin: 10% 10% 15%;
+  margin: 15% 10% 20%;
   align-items: center;
-  min-width: 100vh;
 }
 
 .divider {
-  height: 329px;
+  height: 320px;
   width: 1px;
   background-color: black;
-  margin-right: 70px;
+  margin: 0 50px;
 }
 
 a.infoContainer {
   display: flex;
   flex-direction: row;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   align-items: center;
   margin-bottom: 1rem;
 }
@@ -26,27 +25,30 @@ a.infoContainer:hover {
   text-decoration: underline;
 }
 
-.text {
-  margin-left: 15px;
+.textMailme {
+  margin-right: 5px;
 }
 
 @media (max-width: 768px) {
   .container {
     background-image: url("/img/bg-contact768.jpg");
     background-size: cover;
+    overflow: hidden;
   }
   .main {
     min-height: 75vh;
-    margin-top: 15%;
+    margin-top: 25%;
     align-items: flex-start;
   }
 
   .contactImgContainer {
     display: none;
+    visibility: hidden;
   }
 
   .divider {
     display: none;
+    visibility: hidden;
   }
 }
 
@@ -58,9 +60,11 @@ a.infoContainer:hover {
 
   .contactImgContainer {
     display: none;
+    visibility: hidden;
   }
 
   .divider {
     display: none;
+    visibility: hidden;
   }
 }

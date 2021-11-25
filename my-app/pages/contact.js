@@ -97,7 +97,7 @@ export default function contact() {
 
       <main className={stylesContact.main}>
         <div className={stylesContact.contactImgContainer}>
-          <Image src="/img/contact.png" width={839} height={376} />
+          <Image src="/img/contact.png" width={440} height={285} />
         </div>
         <div className={stylesContact.divider}></div>
         <div className={stylesContact.contactText}>
@@ -110,12 +110,12 @@ export default function contact() {
             className={stylesContact.infoContainer}
           >
             <Image
-              src="/img/icons/ic_round-mail.png"
+              src="/img/icons/ic_round-mail.jpg"
               alt="icon-mail"
-              width={25}
+              width={41}
               height={25}
             />
-            <p className={stylesContact.text}>mariana.macias2395@gmail.com</p>
+            <p className={stylesContact.text}>marianamacias2395@gmail.com</p>
           </a>
           <a
             href="https://www.behance.net/marianamacias2395"
@@ -124,9 +124,9 @@ export default function contact() {
             className={stylesContact.infoContainer}
           >
             <Image
-              src="/img/icons/ic_behance.png"
+              src="/img/icons/ic_behance.jpg"
               alt="icon-behance"
-              width={25}
+              width={41}
               height={25}
             />
             <p className={stylesContact.text}>/marianamacias2395</p>
@@ -138,9 +138,9 @@ export default function contact() {
             className={stylesContact.infoContainer}
           >
             <Image
-              src="/img/icons/ic_linkedin.png"
+              src="/img/icons/ic_linkedin.jpg"
               alt="icon-linkedin"
-              width={25}
+              width={41}
               height={25}
             />
             <p className={stylesContact.text}>/mariana-macias2395</p>
