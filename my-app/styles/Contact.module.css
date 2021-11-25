@@ -1,0 +1,66 @@
+.main {
+  display: flex;
+  flex-direction: row;
+  margin: 10% 10% 15%;
+  align-items: center;
+  min-width: 100vh;
+}
+
+.divider {
+  height: 329px;
+  width: 1px;
+  background-color: black;
+  margin-right: 70px;
+}
+
+a.infoContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+a.infoContainer:hover {
+  color: #1d2fb0;
+  text-decoration: underline;
+}
+
+.text {
+  margin-left: 15px;
+}
+
+@media (max-width: 768px) {
+  .container {
+    background-image: url("/img/bg-contact768.jpg");
+    background-size: cover;
+  }
+  .main {
+    min-height: 75vh;
+    margin-top: 15%;
+    align-items: flex-start;
+  }
+
+  .contactImgContainer {
+    display: none;
+  }
+
+  .divider {
+    display: none;
+  }
+}
+
+@media (max-width: 576px) {
+  .container {
+    background-image: url("/img/bg-contact576.jpg");
+    background-size: cover;
+  }
+
+  .contactImgContainer {
+    display: none;
+  }
+
+  .divider {
+    display: none;
+  }
+}

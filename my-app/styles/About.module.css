@@ -1,15 +1,22 @@
+.container {
+  background-image: url("/img/bg-about.jpg");
+  background-size: cover;
+}
 .mainAbout {
   flex-direction: column;
   align-items: flex-start;
   align-content: center;
+  margin-bottom: 5%;
 }
 
 .mainTextAbout {
-  margin: 5% 10% 0;
+  margin: 12% 10% 0;
 }
 
 .bodyText {
   margin-right: 38%;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 .quoteText {
@@ -27,4 +34,32 @@ a.workLink {
 
 .workLink:hover {
   text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .container {
+    background-image: url("/img/bg-about768.jpg");
+    background-size: cover;
+  }
+
+  .bodyText {
+    margin-right: 10%;
+  }
+}
+
+@media (max-width: 576px) {
+  .container {
+    background-image: url("/img/bg-about576.jpg");
+    background-size: cover;
+  }
+
+  .bodyText {
+    margin-right: 0;
+  }
+
+  .quoteText {
+    color: #1d2fb0;
+    margin-right: 10%;
+    margin-left: 5%;
+  }
 }

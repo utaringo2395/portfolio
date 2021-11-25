@@ -44,7 +44,8 @@
   font-weight: 500;
   color: white;
   background: black;
-  padding: 0.3rem 1.75rem;
+  padding: 0.7rem 1.75rem;
   margin-bottom: 15px;
   border-radius: 50px;
+  line-height: 1.2;
 }

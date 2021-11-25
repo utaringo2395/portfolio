@@ -72,12 +72,20 @@ export default function Home() {
                   md:pt-0"
             >
               <li className={styles.hoverAnimation}>
-                <a className="md:p-4 py-2 block" href="/about">
+                <a
+                  className="md:p-4 py-2 block"
+                  href="/about"
+                  rel="noopener noreferrer"
+                >
                   about me
                 </a>
               </li>
               <li className={styles.hoverAnimation}>
-                <a className="md:p-4 py-2 block" href="/contact">
+                <a
+                  className="md:p-4 py-2 block"
+                  href="/contact"
+                  rel="noopener noreferrer"
+                >
                   contact
                 </a>
               </li>
