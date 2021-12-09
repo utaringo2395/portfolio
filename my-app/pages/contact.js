@@ -35,7 +35,6 @@ export default function contact() {
                 
                 md:py-0
                 text-lg text-gray-700
-                bg-white
                 "
         >
           <div>

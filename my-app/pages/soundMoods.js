@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
-import Link from "next/link";
 import styles from "../styles/Home.module.css";
+import stylesProject from "../styles/Project.module.css";
 import stylesComponent from "../styles/Component.module.css";
 
 export default function soundMoods() {
@@ -24,7 +24,6 @@ export default function soundMoods() {
                 
                 md:py-0
                 text-lg text-gray-700
-                bg-white
                 "
         >
           <div>
@@ -75,6 +74,11 @@ export default function soundMoods() {
           </div>
         </nav>
       </header>
+      <main className={stylesProject.main}>
+        <div className={stylesProject.header}>
+          <h1 className={stylesProject.title}>Sound Moods</h1>
+        </div>
+      </main>
     </div>
   );
 }

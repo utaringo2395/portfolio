@@ -1,0 +1,15 @@
+.header {
+  background-image: url("/img/soundmoods-main.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: auto;
+  height: 545px;
+}
+
+.title {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 4rem;
+  color: black;
+  background-color: white;
+  padding: 5px 10px;
+}
