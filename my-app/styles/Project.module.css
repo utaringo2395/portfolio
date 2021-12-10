@@ -4,6 +4,12 @@
   background-repeat: no-repeat;
   width: auto;
   height: 545px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-self: flex-end;
+  align-content: flex-end;
 }
 
 .title {
