@@ -1,5 +1,31 @@
-.header {
+.headerSm {
   background-image: url("/img/soundmoods-main.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: auto;
+  height: 545px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-self: flex-end;
+  align-content: flex-end;
+}
+.headerBaku {
+  background-image: url("/img/baku/header.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: auto;
+  height: 545px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-self: flex-end;
+  align-content: flex-end;
+}
+.headerAuto {
+  background-image: url("/img/auto/single1.png");
   background-size: cover;
   background-repeat: no-repeat;
   width: auto;
@@ -18,4 +44,97 @@
   color: black;
   background-color: white;
   padding: 5px 10px;
+  line-height: 1;
+
+  display: inline-block;
+  width: 380px;
+  margin-top: auto;
+  margin-left: 10%;
+  margin-bottom: 2%;
+}
+
+.titleAuto {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 4rem;
+  color: black;
+  background-color: white;
+  padding: 5px 10px;
+  line-height: 1;
+
+  display: inline-block;
+  width: 420px;
+  margin-top: auto;
+  margin-left: 10%;
+  margin-bottom: 2%;
+}
+
+.description {
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.2;
+  margin: 2.5rem 0 1rem;
+}
+
+.body {
+  margin: 3.5% 15% 7%;
+}
+
+.subtext {
+  margin-top: 1.75rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #1d2fb0;
+}
+
+.text {
+  margin-top: 1rem;
+  font-size: 18px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.list {
+  font-size: 18px;
+  margin-left: 1rem;
+}
+
+.line {
+  margin: 7% 0 5%;
+}
+
+.imgDesc {
+  font-size: 14px;
+  color: #c4c4c4;
+  text-align: center;
+}
+
+.imgContainer {
+  display: flex;
+  justify-content: center;
+  margin: 5% 0;
+}
+
+@media (max-width: 576px) {
+  .title {
+    font-size: 3rem;
+    width: 290px;
+    margin-left: 5%;
+    margin-bottom: 7%;
+  }
+
+  .titleAuto {
+    font-size: 2.5rem;
+    width: 300px;
+    margin-left: 5%;
+    margin-bottom: 7%;
+  }
+
+  .description {
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+
+  .body {
+    margin: 3.5% 5% 7%;
+  }
 }

@@ -25,7 +25,8 @@ h1 {
   font-weight: 500;
 }
 
-p {
+p,
+li {
   font-family: "Josefin Sans", sans-serif;
 }
 
