@@ -193,17 +193,19 @@ export default function Home() {
             <p className={stylesComponent.cardTag}>UI/UX</p>
           </div>
         </Link>
-        <div className={stylesComponent.cardMini}>
-          <Image
-            src="/img/cityapp-thumb.jpg"
-            alt="component-card"
-            width={310}
-            height={279}
-            className={stylesComponent.cardImg}
-          />
-          <p className={stylesComponent.cardTitle}>City Transport App</p>
-          <p className={stylesComponent.cardTag}>UI</p>
-        </div>
+        <Link href="/cityTransport">
+          <div className={stylesComponent.cardMini}>
+            <Image
+              src="/img/cityapp-thumb.jpg"
+              alt="component-card"
+              width={310}
+              height={279}
+              className={stylesComponent.cardImg}
+            />
+            <p className={stylesComponent.cardTitle}>City Transport App</p>
+            <p className={stylesComponent.cardTag}>UI</p>
+          </div>
+        </Link>
         <div className={stylesComponent.cardMini}>
           <Image
             src="/img/cityapp-thumb.jpg"

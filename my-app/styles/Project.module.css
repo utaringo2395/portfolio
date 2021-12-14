@@ -37,6 +37,19 @@
   align-self: flex-end;
   align-content: flex-end;
 }
+.headerCityTransport {
+  background-image: url("/img/city/header.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: auto;
+  height: 545px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-self: flex-end;
+  align-content: flex-end;
+}
 
 .title {
   font-family: "Cormorant Garamond", serif;
@@ -63,6 +76,21 @@
 
   display: inline-block;
   width: 420px;
+  margin-top: auto;
+  margin-left: 10%;
+  margin-bottom: 2%;
+}
+
+.titleCity {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 4rem;
+  color: black;
+  background-color: white;
+  padding: 5px 10px;
+  line-height: 1;
+
+  display: inline-block;
+  width: 430px;
   margin-top: auto;
   margin-left: 10%;
   margin-bottom: 2%;
@@ -111,7 +139,7 @@
 .imgContainer {
   display: flex;
   justify-content: center;
-  margin: 5% 0;
+  margin: 5% 0 2%;
 }
 
 @media (max-width: 576px) {
