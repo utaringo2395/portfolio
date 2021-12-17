@@ -217,17 +217,6 @@ export default function Home() {
           <p className={stylesComponent.cardTitle}>State Gazette</p>
           <p className={stylesComponent.cardTag}>UI/UX</p>
         </div>
-        <div className={stylesComponent.cardMini}>
-          <Image
-            src="/img/bakubeach-thumb.jpg"
-            alt="component-card"
-            width={310}
-            height={279}
-            className={stylesComponent.cardImg}
-          />
-          <p className={stylesComponent.cardTitle}>State Gazette</p>
-          <p className={stylesComponent.cardTag}>UI/UX</p>
-        </div>
 
         <div className={stylesComponent.card}>
           <Image
