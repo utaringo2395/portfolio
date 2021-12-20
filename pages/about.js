@@ -125,7 +125,7 @@ export default function about() {
           </ul>
           <br />
           <p className={stylesAbout.bodyText}>
-            I've learned HTML and CSS with online courses and help from fellow
+            I&apos;ve learned HTML and CSS with online courses and help from fellow
             friends and work colleagues. Recently learning JS and some other
             libraries, such as Vue, React, and React frameworks like Next.js
           </p>
