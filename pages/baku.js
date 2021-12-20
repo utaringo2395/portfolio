@@ -27,9 +27,9 @@ export default function baku() {
                 "
         >
           <div>
-            <a href="/" className={styles.brand}>
+            <Link href="/" className={styles.brand}>
               mmmacias
-            </a>
+            </Link>
           </div>
 
           <svg
@@ -61,14 +61,14 @@ export default function baku() {
                     md:pt-0"
             >
               <li className={styles.hoverAnimation}>
-                <a className="md:p-4 py-2 block" href="#">
+                <Link className="md:p-4 py-2 block" href="#">
                   about me
-                </a>
+                </Link>
               </li>
               <li className={styles.hoverAnimation}>
-                <a className="md:p-4 py-2 block" href="#">
+                <Link className="md:p-4 py-2 block" href="#">
                   contact
-                </a>
+                </Link>
               </li>
             </ul>
           </div>

@@ -7,15 +7,6 @@ import stylesComponent from "../styles/Component.module.css";
 import { useEffect } from "react";
 
 export default function about() {
-  useEffect(() => {
-    const button = document.querySelector("#menu-button");
-    const menu = document.querySelector("#menu");
-
-    button.addEventListener("click", () => {
-      menu.classList.toggle("hidden");
-    });
-  }, []);
-
   return (
     <div className={stylesAbout.container}>
       <Head>
@@ -38,9 +29,9 @@ export default function about() {
                 "
         >
           <div>
-            <a href="/" className={styles.brand}>
+            <Link href="/" className={styles.brand}>
               mmmacias
-            </a>
+            </Link>
           </div>
 
           <svg
@@ -72,22 +63,22 @@ export default function about() {
                     md:pt-0"
             >
               <li className={styles.hoverAnimation}>
-                <a
+                <Link
                   className="md:p-4 py-2 block"
                   href="/about"
                   rel="noopener noreferrer"
                 >
                   about me
-                </a>
+                </Link>
               </li>
               <li className={styles.hoverAnimation}>
-                <a
+                <Link
                   className="md:p-4 py-2 block"
                   href="/contact"
                   rel="noopener noreferrer"
                 >
                   contact
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
