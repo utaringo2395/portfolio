@@ -87,13 +87,13 @@ export default function about() {
 
       <main className={stylesAbout.mainAbout}>
         <div className={stylesAbout.mainTextAbout}>
-          <h1 className={styles.title}> I'm Mariana</h1>
+          <h1 className={styles.title}> I&apos;m Mariana</h1>
           <p className={styles.description}>
             Web Designer & aspiring Front-end Developer.
           </p>
           <br />
           <p className={stylesAbout.bodyText}>
-            Hey! I'm Mariana Macías, 26. Web designer and an enthusiast of
+            Hey! I&apos;m Mariana Macías, 26. Web designer and an enthusiast of
             front-end development.{" "}
           </p>
           <br />
@@ -131,7 +131,7 @@ export default function about() {
           </p>
           <br />
           <p className={stylesAbout.bodyText}>
-            When I'm not working, I like to do some other activities, like
+            When I&apos;m not working, I like to do some other activities, like
             cooking and eating stuff I can make with my kitchen appliances
             that's 100% an adulting thing). Petting and smooching my schnauzer
             doggo, Teo. And singing, nothing formal, I just enjoy singing anime

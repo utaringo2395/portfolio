@@ -87,7 +87,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <div className={styles.mainText}>
-          <h1 className={styles.title}>I'm Mariana</h1>
+          <h1 className={styles.title}>I&apos;m Mariana</h1>
           <p className={styles.description}>
             Web Designer & aspiring Front-end Developer.
           </p>

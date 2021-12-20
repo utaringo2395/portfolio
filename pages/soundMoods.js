@@ -89,7 +89,7 @@ export default function soundMoods() {
             <br />
             Most of my current job relies on making design decisions through
             design guidelines, manuals, accesibility, etc. So this was mostly to
-            have some fun with the music I'm listening to. (In this case, J-pop
+            have some fun with the music I&apos;m listening to. (In this case, J-pop
             band, YOASOBI)
           </p>
           <hr className={stylesProject.line} />
