@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
+import Link from "next/link";
 import styles from "../styles/Home.module.css";
 import stylesProject from "../styles/Project.module.css";
 import stylesComponent from "../styles/Component.module.css";
@@ -27,9 +28,9 @@ export default function autonomous() {
                 "
         >
           <div>
-            <a href="/" className={styles.brand}>
+            <Link href="/" className={styles.brand}>
               mmmacias
-            </a>
+            </Link>
           </div>
 
           <svg
@@ -61,14 +62,14 @@ export default function autonomous() {
                     md:pt-0"
             >
               <li className={styles.hoverAnimation}>
-                <a className="md:p-4 py-2 block" href="#">
+                <Link className="md:p-4 py-2 block" href="#">
                   about me
-                </a>
+                </Link>
               </li>
               <li className={styles.hoverAnimation}>
-                <a className="md:p-4 py-2 block" href="#">
+                <Link className="md:p-4 py-2 block" href="#">
                   contact
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -130,7 +131,7 @@ export default function autonomous() {
           <br />
           <p className={stylesProject.description}>Competition Comparison</p>
           <p className={stylesProject.text}>
-            Home-based education isn't a regular thing in Mexico, so it was kind
+            Home-based education isn&apos;t a regular thing in Mexico, so it was kind
             of troublesome finding competition for a national comparison. Some
             of the most similar sites, would be more like a blog, or offer a set
             package of resources for a determined age range, limiting it to 5 or
@@ -175,7 +176,7 @@ export default function autonomous() {
             />
           </div>
           <p className={stylesProject.imgDesc}>
-            Inspired in Gio Ponti's mosaics, to create a set of shapes
+            Inspired in Gio Ponti&apos;s mosaics, to create a set of shapes
             interacting with each other
           </p>
           <br />
@@ -218,7 +219,7 @@ export default function autonomous() {
           </p>
           <p className={stylesProject.subtext}>Group activities</p>
           <p className={stylesProject.text}>
-            Home-based education can have it's limitations on infrastructure,
+            Home-based education can have it&apos;s limitations on infrastructure,
             and equipment with science and sports activities. Having an alliance
             with a school gave us the possibility of considering having live
             activities, promoted through the site.

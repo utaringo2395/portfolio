@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
+import Link from "next/link";
 import styles from "../styles/Home.module.css";
 import stylesProject from "../styles/Project.module.css";
 import stylesComponent from "../styles/Component.module.css";
@@ -27,9 +28,9 @@ export default function cityTransport() {
                 "
         >
           <div>
-            <a href="/" className={styles.brand}>
+            <Link href="/" className={styles.brand}>
               mmmacias
-            </a>
+            </Link>
           </div>
 
           <svg
@@ -61,14 +62,14 @@ export default function cityTransport() {
                     md:pt-0"
             >
               <li className={styles.hoverAnimation}>
-                <a className="md:p-4 py-2 block" href="#">
+                <Link className="md:p-4 py-2 block" href="#">
                   about me
-                </a>
+                </Link>
               </li>
               <li className={styles.hoverAnimation}>
-                <a className="md:p-4 py-2 block" href="#">
+                <Link className="md:p-4 py-2 block" href="#">
                   contact
-                </a>
+                </Link>
               </li>
             </ul>
           </div>

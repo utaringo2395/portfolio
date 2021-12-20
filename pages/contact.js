@@ -7,15 +7,6 @@ import stylesComponent from "../styles/Component.module.css";
 import { useEffect } from "react";
 
 export default function contact() {
-  useEffect(() => {
-    const button = document.querySelector("#menu-button");
-    const menu = document.querySelector("#menu");
-
-    button.addEventListener("click", () => {
-      menu.classList.toggle("hidden");
-    });
-  }, []);
-
   return (
     <div className={stylesContact.container}>
       <Head>
@@ -38,9 +29,9 @@ export default function contact() {
                 "
         >
           <div>
-            <a href="/" className={styles.brand}>
+            <Link href="/" className={styles.brand}>
               mmmacias
-            </a>
+            </Link>
           </div>
 
           <svg
@@ -72,22 +63,22 @@ export default function contact() {
                     md:pt-0"
             >
               <li className={styles.hoverAnimation}>
-                <a
+                <Link
                   className="md:p-4 py-2 block"
                   href="/about"
                   rel="noopener noreferrer"
                 >
                   about me
-                </a>
+                </Link>
               </li>
               <li className={styles.hoverAnimation}>
-                <a
+                <Link
                   className="md:p-4 py-2 block"
                   href="/contact"
                   rel="noopener noreferrer"
                 >
                   contact
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -96,7 +87,7 @@ export default function contact() {
 
       <main className={stylesContact.main}>
         <div className={stylesContact.contactImgContainer}>
-          <Image src="/img/contact.png" width={440} height={285} />
+          <Image src="/img/contact.png" width={440} height={285} alt="contact-image" />
         </div>
         <div className={stylesContact.divider}></div>
         <div className={stylesContact.contactText}>

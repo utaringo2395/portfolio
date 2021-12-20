@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
+import Link from "next/link";
 import styles from "../styles/Home.module.css";
 import stylesProject from "../styles/Project.module.css";
 import stylesComponent from "../styles/Component.module.css";
@@ -27,9 +28,9 @@ export default function soundMoods() {
                 "
         >
           <div>
-            <a href="/" className={styles.brand}>
+            <Link href="/" className={styles.brand}>
               mmmacias
-            </a>
+            </Link>
           </div>
 
           <svg
@@ -61,14 +62,14 @@ export default function soundMoods() {
                     md:pt-0"
             >
               <li className={styles.hoverAnimation}>
-                <a className="md:p-4 py-2 block" href="#">
+                <Link className="md:p-4 py-2 block" href="#">
                   about me
-                </a>
+                </Link>
               </li>
               <li className={styles.hoverAnimation}>
-                <a className="md:p-4 py-2 block" href="#">
+                <Link className="md:p-4 py-2 block" href="#">
                   contact
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -88,13 +89,13 @@ export default function soundMoods() {
             <br />
             Most of my current job relies on making design decisions through
             design guidelines, manuals, accesibility, etc. So this was mostly to
-            have some fun with the music I'm listening to. (In this case, J-pop
+            have some fun with the music I&apos;m listening to. (In this case, J-pop
             band, YOASOBI)
           </p>
           <hr className={stylesProject.line} />
           <p className={stylesProject.description}>Color Palette</p>
           <p className={stylesProject.text}>
-            The color palette was made with YOASOBI's main color from the single
+            The color palette was made with YOASOBI&apos;s main color from the single
             Gunjou (群青), making some variations with opacity and saturation.
             For other areas, the use of gradients.
           </p>
@@ -113,7 +114,7 @@ export default function soundMoods() {
             <br />
             <br />
             <b>My Moods</b> has a list with an horizontal scroll, with the
-            playlists you've created.
+            playlists you&apos;ve created.
             <br />
             <b>New</b> is a selection of the latest releases from your favourite
             artists.
@@ -142,7 +143,7 @@ export default function soundMoods() {
             />
           </div>
           <p className={stylesProject.text}>
-            A component for locked screens shows the image from what's playing
+            A component for locked screens shows the image from what&apos;s playing
             at the moment, name of the song, artist, the option to love or
             un-love the song and the usual music controls.
             <br />
@@ -154,7 +155,7 @@ export default function soundMoods() {
             next and random).
             <br />
             <br />
-            In the minimized version, it'll only show the song image. name of
+            In the minimized version, it&apos;ll only show the song image. name of
             the song, artist, time bar and play/pause button.
           </p>
           <div className={stylesProject.imgContainer}>
@@ -167,7 +168,7 @@ export default function soundMoods() {
           </div>
           <hr className={stylesProject.line} />
           <p className={stylesProject.text}>
-            And that's it, I know it lacks some of technical and accesibility
+            And that&apos;s it, I know it lacks some of technical and accesibility
             things, but making aesthethically pleasing projects is kind of eye
             candy for me, and I enjoyed the process :)
           </p>

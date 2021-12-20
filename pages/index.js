@@ -6,15 +6,6 @@ import stylesComponent from "../styles/Component.module.css";
 import { useEffect } from "react";
 
 export default function Home() {
-  useEffect(() => {
-    const button = document.querySelector("#menu-button");
-    const menu = document.querySelector("#menu");
-
-    button.addEventListener("click", () => {
-      menu.classList.toggle("hidden");
-    });
-  }, []);
-
   return (
     <div className={styles.container}>
       <Head>
@@ -38,9 +29,9 @@ export default function Home() {
             "
         >
           <div>
-            <a href="/" className={styles.brand}>
+            <Link href="/" className={styles.brand}>
               mmmacias
-            </a>
+            </Link>
           </div>
 
           <svg
@@ -72,22 +63,22 @@ export default function Home() {
                   md:pt-0"
             >
               <li className={styles.hoverAnimation}>
-                <a
+                <Link
                   className="md:p-4 py-2 block"
                   href="/about"
                   rel="noopener noreferrer"
                 >
                   about me
-                </a>
+                </Link>
               </li>
               <li className={styles.hoverAnimation}>
-                <a
+                <Link
                   className="md:p-4 py-2 block"
                   href="/contact"
                   rel="noopener noreferrer"
                 >
                   contact
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -96,13 +87,13 @@ export default function Home() {
 
       <main className={styles.main}>
         <div className={styles.mainText}>
-          <h1 className={styles.title}>I'm Mariana</h1>
+          <h1 className={styles.title}>I&apos;m Mariana</h1>
           <p className={styles.description}>
             Web Designer & aspiring Front-end Developer.
           </p>
-          <a href="#work" className={styles.cta}>
+          <Link href="#work" className={styles.cta}>
             Check my work &#10084;
-          </a>
+          </Link>
         </div>
       </main>
 
