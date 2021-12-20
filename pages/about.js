@@ -133,7 +133,7 @@ export default function about() {
           <p className={stylesAbout.bodyText}>
             When I&apos;m not working, I like to do some other activities, like
             cooking and eating stuff I can make with my kitchen appliances
-            that's 100% an adulting thing). Petting and smooching my schnauzer
+            that&apos;s 100% an adulting thing). Petting and smooching my schnauzer
             doggo, Teo. And singing, nothing formal, I just enjoy singing anime
             songs or something from the Yeah Yeah Yeahs as I do some other
             stuff.
