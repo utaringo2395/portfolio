@@ -93,7 +93,7 @@ export default function about() {
           </p>
           <br />
           <p className={stylesAbout.bodyText}>
-            Hey! I’m Mariana Macías, 26. Web designer and an enthusiast of
+            Hey! I'm Mariana Macías, 26. Web designer and an enthusiast of
             front-end development.{" "}
           </p>
           <br />
@@ -125,15 +125,15 @@ export default function about() {
           </ul>
           <br />
           <p className={stylesAbout.bodyText}>
-            I’ve learned HTML and CSS with online courses and help from fellow
+            I've learned HTML and CSS with online courses and help from fellow
             friends and work colleagues. Recently learning JS and some other
             libraries, such as Vue, React, and React frameworks like Next.js
           </p>
           <br />
           <p className={stylesAbout.bodyText}>
-            When I’m not working, I like to do some other activities, like
+            When I'm not working, I like to do some other activities, like
             cooking and eating stuff I can make with my kitchen appliances
-            that’s 100% an adulting thing). Petting and smooching my schnauzer
+            that's 100% an adulting thing). Petting and smooching my schnauzer
             doggo, Teo. And singing, nothing formal, I just enjoy singing anime
             songs or something from the Yeah Yeah Yeahs as I do some other
             stuff.
@@ -141,13 +141,13 @@ export default function about() {
           <br />
           <p classsName={stylesAbout.bodyText}>
             This is just a little bit about me! Go and check out some of my{" "}
-            <a
+            <Link
               href="/#work"
               className={stylesAbout.workLink}
               rel="noopener noreferrer"
             >
               work
-            </a>{" "}
+            </Link>{" "}
             :)
           </p>
         </div>

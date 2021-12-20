@@ -87,7 +87,7 @@ export default function contact() {
 
       <main className={stylesContact.main}>
         <div className={stylesContact.contactImgContainer}>
-          <Image src="/img/contact.png" width={440} height={285} />
+          <Image src="/img/contact.png" width={440} height={285} alt="contact-image" />
         </div>
         <div className={stylesContact.divider}></div>
         <div className={stylesContact.contactText}>
