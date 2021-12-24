@@ -1,0 +1,39 @@
+.navigation {
+  display: flex;
+  height: 80px;
+  width: 100%;
+  background: #f9f9f9;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.logo {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 800;
+  color: black;
+}
+
+.navList {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+.navItem {
+  margin: 0 5px;
+  
+  display: inline-block;
+  position: relative;
+  color: black;
+}
+
+.navLink {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 8px 15px;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+}
