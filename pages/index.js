@@ -24,7 +24,7 @@ export default function Home() {
             Web Designer & aspiring Front-end Developer.
           </p>
           <Link href="#work">
-            <a href="#work" className={styles.cta}>Check my work &#10084;</a>
+            <a href="#work" className={styles.cta}>Check my work &#129293;</a>
           </Link>
         </div>
       </main>
