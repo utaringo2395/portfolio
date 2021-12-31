@@ -37,33 +37,16 @@
   align-items: center;
 }
 
-.brand {
-  font-weight: 800;
-  color: black;
-}
-
-.hoverAnimation {
-  display: inline-block;
-  position: relative;
-  color: black;
-}
-
-.hoverAnimation:after {
-  content: "";
-  position: absolute;
-  width: 100%;
-  transform: scaleX(0);
-  height: 2px;
-  bottom: 0;
-  left: 0;
+.cta {
   background-color: black;
-  transform-origin: bottom right;
-  transition: transform 0.25s ease-out;
+  padding: 1rem 1.5rem;
+  border-radius: 30px;
+  color: white;
 }
 
-.hoverAnimation:hover:after {
-  transform: scaleX(1);
-  transform-origin: bottom left;
+.cta:hover {
+  background-color: #1d30b0;
+  color: white;
 }
 
 .title {
@@ -78,20 +61,6 @@
   font-size: 2rem;
   font-weight: 400;
   margin-bottom: 1rem;
-}
-
-a.cta {
-  color: white;
-  background-color: black;
-  border-radius: 50px;
-  padding: 1rem 1.5rem;
-  margin-top: 0.5rem;
-  transition: transform 250ms;
-}
-
-a.cta:hover {
-  box-shadow: 0 0.5em 0.5em -0.4em;
-  transform: translateY(-5px);
 }
 
 .tools {

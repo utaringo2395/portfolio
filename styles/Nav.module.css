@@ -6,11 +6,15 @@
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
+
+  position: -webkit-sticky;
+  position: sticky;
 }
 
 .logo {
   font-family: "Josefin Sans", sans-serif;
-  font-weight: 800;
+  font-size: 18px;
+  font-weight: 900;
   color: black;
 }
 
@@ -21,11 +25,7 @@
 }
 
 .navItem {
-  margin: 0 5px;
-  
-  display: inline-block;
-  position: relative;
-  color: black;
+  margin: 0 10px;
 }
 
 .navLink {
@@ -35,5 +35,37 @@
   padding: 8px 15px;
   border-radius: 5px;
   letter-spacing: 1px;
-  transition: all 0.3s ease;
+
+  display: inline-block;
+  position: relative;
+}
+
+.hoverAnimation {
+  display: inline-block;
+  position: relative;
+  color: black;
+}
+
+.hoverAnimation:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: black;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+.hoverAnimation:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.menu-btn {
+  color: black;
+  font-size: 22px;
+  cursor: pointer;
+  display: none;
 }

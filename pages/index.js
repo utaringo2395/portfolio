@@ -1,11 +1,9 @@
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import styles from "../styles/Home.module.css";
 import stylesComponent from "../styles/Component.module.css";
-import stylesNav from "../styles/Nav.module.css";
-import { useEffect } from "react";
+import Navbar from "../components/Navbar";
 
 export default function Home() {
   return (
@@ -16,25 +14,7 @@ export default function Home() {
         <link rel="icon" href="/mmm.ico" />
       </Head>
       <header className="msticky top-0 z-50">
-        <nav className={stylesNav.navigation}>
-          <div className={stylesNav.logo}>mmmacias</div>
-          <FontAwesomeIcon id="click" icon="check-square" />
-          <label htmlFor="click" className="menu-btn">
-            <i className="fas fa-bars"></i>
-          </label>
-          <ul className={stylesNav.navList}>
-            <li className={stylesNav.navItem}>
-              <Link className={stylesNav.navLink} href="/about">
-                about
-              </Link>
-            </li>
-            <li className={stylesNav.navItem}>
-              <Link className={stylesNav.navLink} href="/contact">
-                contact
-              </Link>
-            </li>
-          </ul>
-        </nav>
+        <Navbar></Navbar>
       </header>
 
       <main className={styles.main}>
@@ -43,8 +23,8 @@ export default function Home() {
           <p className={styles.description}>
             Web Designer & aspiring Front-end Developer.
           </p>
-          <Link href="#work" className={styles.cta}>
-            Check my work &#10084;
+          <Link href="#work">
+            <a href="#work" className={styles.cta}>Check my work &#10084;</a>
           </Link>
         </div>
       </main>
