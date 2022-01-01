@@ -12,6 +12,9 @@ export default function about() {
         <title>mmmacias | Web designer</title>
         <meta name="description" content="Mariana M. | Web Designer" />
         <link rel="icon" href="/mmm.ico" />
+
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
       </Head>
       <header className="msticky top-0 z-50">
         <Navbar></Navbar>
