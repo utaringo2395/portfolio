@@ -5,7 +5,7 @@ const Navbar = () => {
     return(
         <nav className={stylesNav.navigation}>
           <Link href="/" className={stylesNav.logo}>
-              <a href="/" className={stylesNav.logo}>mmmacias</a>
+              <a className={stylesNav.logo}>mmmacias</a>
           </Link>
           <ul className={stylesNav.navList}>
             <li className={`${stylesNav.navItem} ${stylesNav.hoverAnimation}`}>

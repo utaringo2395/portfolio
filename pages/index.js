@@ -79,7 +79,6 @@ export default function Home() {
       </div>
 
       <div className={styles.work} id="work">
-        <Link href="/soundMoods">
           <div className={stylesComponent.card}>
             <Image
               src="/img/soundmoods-thumb.jpg"
@@ -90,10 +89,9 @@ export default function Home() {
             />
             <p className={stylesComponent.cardTag}>UI · MOBILE · MUSIC</p>
             <Link href="/soundMoods">
-              <a href="/soundMoods" className={stylesComponent.cardTitle}>Sound Moods &#8594;</a>
+              <a className={stylesComponent.cardTitle}>Sound Moods &#8594;</a>
             </Link>
           </div>
-        </Link>
         <Link href="/baku">
           <div className={stylesComponent.cardMini}>
             <Image
@@ -105,7 +103,7 @@ export default function Home() {
             />
             <p className={stylesComponent.cardTag}>UI · UX · ECOMMERCE</p>
             <Link href="/baku">
-              <a href="/baku" className={stylesComponent.cardTitle}>Bakú Beachwear &#8594;</a>
+              <a className={stylesComponent.cardTitle}>Bakú Beachwear &#8594;</a>
             </Link>
           </div>
         </Link>
@@ -120,7 +118,7 @@ export default function Home() {
             />
             <p className={stylesComponent.cardTag}>UI · UX · EDUCATION</p>
             <Link href="/autonomous">
-              <a href="/autonomous" className={stylesComponent.cardTitle}>Autonomous &#8594;</a>
+              <a className={stylesComponent.cardTitle}>Autonomous &#8594;</a>
             </Link>
           </div>
         </Link>
@@ -135,7 +133,7 @@ export default function Home() {
             />
             <p className={stylesComponent.cardTag}>UI · TRANSPORT</p>
             <Link href="/cityTransport">
-              <a href="/cityTransport" className={stylesComponent.cardTitle}>City Transport &#8594;</a>
+              <a className={stylesComponent.cardTitle}>City Transport &#8594;</a>
             </Link>
           </div>
         </Link>
@@ -149,7 +147,7 @@ export default function Home() {
           />
           <p className={stylesComponent.cardTag}>UI · UX</p>
           <Link href="/cityTransport">
-            <a href="/cityTransport" className={stylesComponent.cardTitle}>State Gazette &#8594;</a>
+            <a className={stylesComponent.cardTitle}>State Gazette &#8594;</a>
           </Link>
         </div>
 
@@ -163,7 +161,7 @@ export default function Home() {
           />
           <p className={stylesComponent.cardTag}>UI · Vue.js</p>
           <Link href="/cityTransport">
-            <a href="/cityTransport" className={stylesComponent.cardTitle}>Components &#8594;</a>
+            <a className={stylesComponent.cardTitle}>Components &#8594;</a>
           </Link>
         </div>
       </div>
