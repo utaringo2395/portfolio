@@ -157,6 +157,13 @@
     margin-bottom: 7%;
   }
 
+  .titleCity {
+    font-size: 2.5rem;
+    width: 300px;
+    margin-left: 5%;
+    margin-bottom: 7%;
+  }
+
   .description {
     font-size: 1.5rem;
     font-weight: 500;
