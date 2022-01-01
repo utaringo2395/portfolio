@@ -4,7 +4,7 @@ import stylesNav from "../styles/Nav.module.css";
 const Navbar = () => {
     return(
         <nav className={stylesNav.navigation}>
-          <Link href="/" className={stylesNav.logo}>
+          <Link href="/">
               <a className={stylesNav.logo}>mmmacias</a>
           </Link>
           <ul className={stylesNav.navList}>
