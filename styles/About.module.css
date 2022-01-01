@@ -4,7 +4,6 @@
 .container {
   background-image: url("/img/bg-about.jpg");
   background-size: cover;
-  background: #f9f9f9;
 }
 .mainAbout {
   flex-direction: column;
