@@ -51,6 +51,20 @@
   align-content: flex-end;
 }
 
+.headerGazette {
+  background-image: url("/img/city/header.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: auto;
+  height: 545px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-self: flex-end;
+  align-content: flex-end;
+}
+
 .title {
   font-family: "Cormorant Garamond", serif;
   font-size: 4rem;
