@@ -46,82 +46,126 @@ export default function soundMoods() {
           </p>
           <hr className={stylesProject.line} />
           <p className={stylesProject.description}>
-            Original websites & redesign proposal
+            Official State Gazette, original website & redesign proposal
+          </p>
+          <p className={stylesProject.text}>
+            Main page from Official State Gazette. The whole site uses Bootstrap
+            3 framework, recently they&apos;ve been working on a redesign for
+            the entire site, using frameworks like Vue.js and Bootstrap 5.
+          </p>
+          <div className={stylesProject.imgContainer}>
+            <Image
+              src="/img/gazette/mainPeriodico.png"
+              alt="main-page-state-gazette-original"
+              width={1440}
+              height={1191}
+            />
+          </div>
+          <p className={stylesProject.text}>
+            The page works on desktop sizes higher than 992px wide. Some of the
+            search options overlap in lower size screens. So, we also had to
+            think about the redesign with a mobile perspective and
+            functionality.
+          </p>
+          <div className={stylesProject.imgContainer}>
+            <Image
+              src="/img/gazette/overlap.png"
+              alt="main-page-state-gazette-overlap-elements"
+              width={1440}
+              height={1232}
+            />
+          </div>
+          <p className={stylesProject.imgDesc}>Screen at 991px wide.</p>
+          <br />
+          <p className={stylesProject.text}>
+            The first redesign proposal was based on the new design guidelines,
+            such as fonts and colors.
+            <br />
+            The page would be divided in three sections. Header, search tools
+            and information about the Official State Gazette and it&apos;s
+            procedures for new norms.
+          </p>
+          <div className={stylesProject.imgContainer}>
+            <Image
+              src="/img/gazette/redesign1.png"
+              alt="main-page-state-gazette-redesign-proposal"
+              width={1440}
+              height={2714.4}
+            />
+          </div>
+          <p className={stylesProject.imgDesc}>
+            Main Official State Gazette redesign proposal.
+          </p>
+          <p className={stylesProject.text}>
+            For the search tools, we made a tabed section, so we could have
+            multiple types of search without having the problem of overlapping
+            with each other, also making it functional for a mobile screen.
+          </p>
+          <div className={stylesProject.imgContainer}>
+            <Image
+              src="/img/gazette/searchtypes.png"
+              alt="state-gazette-search-types"
+              width={1440}
+              height={1881}
+            />
+          </div>
+          <p className={stylesProject.imgDesc}>Search tools for desktop.</p>
+          <div className={stylesProject.imgContainer}>
+            <Image
+              src="/img/gazette/searchtypesMobile.png"
+              alt="state-gazette-search-types"
+              width={1440}
+              height={1054}
+            />
+          </div>
+          <p className={stylesProject.imgDesc}>
+            Search tools responsive on mobile.
+          </p>
+          <br />
+          <p className={stylesProject.text}>
+            After presenting the redesign proposal, we were told that the
+            project would change to make an app, since they wanted to offer a
+            tool for a certain niche of users.
           </p>
 
-          <div className={stylesProject.imgContainer}>
-            <Image
-              src="/img/sm/palette.png"
-              alt="soundmoods-color-palette"
-              width={920}
-              height={383}
-            />
-          </div>
-          <br />
-          <p className={stylesProject.description}>Interface design</p>
-          <p className={stylesProject.text}>
-            The main screen has 3 sections.
-            <br />
-            <br />
-            <b>My Moods</b> has a list with an horizontal scroll, with the
-            playlists you&apos;ve created.
-            <br />
-            <b>New</b> is a selection of the latest releases from your favourite
-            artists.
-            <br />
-            <b>Recently loved</b> puts your whole favorite songs in a list.
-          </p>
-          <div className={stylesProject.imgContainer}>
-            <Image
-              src="/img/sm/screen1.png"
-              alt="soundmoods-screens-one"
-              width={920}
-              height={725}
-            />
-          </div>
-          <p className={stylesProject.text}>
-            Artist section features an intro image with number of
-            subscribers/followers, latest release, Most loved songs (as in saved
-            by the users), albums and singles with an horizontal scroll.
-          </p>
-          <div className={stylesProject.imgContainer}>
-            <Image
-              src="/img/sm/screen2.png"
-              alt="soundmoods-screens-one"
-              width={920}
-              height={769}
-            />
-          </div>
-          <p className={stylesProject.text}>
-            A component for locked screens shows the image from what&apos;s
-            playing at the moment, name of the song, artist, the option to love
-            or un-love the song and the usual music controls.
-            <br />
-            <br />
-            In the Playing Now screen, there is the image from the album/single.
-            The next row shows at the center song name and artist, at the left
-            the queue, and at the right the loved button. The final row, has the
-            time bar and the usual music controls (repeat, before, play/pause,
-            next and random).
-            <br />
-            <br />
-            In the minimized version, it&apos;ll only show the song image. name
-            of the song, artist, time bar and play/pause button.
-          </p>
-          <div className={stylesProject.imgContainer}>
-            <Image
-              src="/img/sm/screen3.png"
-              alt="soundmoods-screens-one"
-              width={920}
-              height={769}
-            />
-          </div>
           <hr className={stylesProject.line} />
+
+          <p className={stylesProject.description}>App Design</p>
           <p className={stylesProject.text}>
-            And that&apos;s it, I know it lacks some of technical and
-            accesibility things, but making aesthethically pleasing projects is
-            kind of eye candy for me, and I enjoyed the process :)
+            Fortunately, most of the architecture was solved in the website
+            redesign, so we just had to figure out which Android and iOS
+            components would be convenient to use, and also talk with the
+            developers to get the services that manage all the information in
+            the displayed in the State Gazette.
           </p>
+          <p className={stylesProject.description}>Tabs for Android and iOS</p>
+          <p className={stylesProject.text}>
+            Based on Android&apos;s Material Design and iOS Apple Design
+            Resources, we selected the tabs that would be used in the main menu
+            and sub menu for the search tools.
+          </p>
+          <div className={stylesProject.imgContainer}>
+            <Image
+              src="/img/gazette/tabs.png"
+              alt="state-gazette-app-tabs"
+              width={879}
+              height={624}
+            />
+          </div>
+          <p className={stylesProject.text}>
+            Just as in the proposal of the responsive design, we would use tabs
+            to organize the two sections, a main screen to describe them and
+            have the contact of the agencies in charge of managing the State
+            Gazette information.
+          </p>
+          <div className={stylesProject.imgContainer}>
+            <Image
+              src="/img/gazette/mainscreens.png"
+              alt="state-gazette-app-main-screens"
+              width={1440}
+              height={1526.08}
+            />
+          </div>
         </div>
       </main>
 

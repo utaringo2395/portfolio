@@ -27,7 +27,9 @@ export default function Home() {
             Web Designer & aspiring Front-end Developer.
           </p>
           <Link href="#work">
-            <a href="#work" className={styles.cta}>Check my work &#129293;</a>
+            <a href="#work" className={styles.cta}>
+              Check my work &#129293;
+            </a>
           </Link>
         </div>
       </main>
@@ -78,19 +80,19 @@ export default function Home() {
       </div>
 
       <div className={styles.work} id="work">
-          <div className={stylesComponent.card}>
-            <Image
-              src="/img/soundmoods-thumb.jpg"
-              alt="component-card"
-              width={688}
-              height={279}
-              className={stylesComponent.cardImg}
-            />
-            <p className={stylesComponent.cardTag}>UI · MOBILE · MUSIC</p>
-            <Link href="/soundMoods">
-              <a className={stylesComponent.cardTitle}>Sound Moods &#8594;</a>
-            </Link>
-          </div>
+        <div className={stylesComponent.card}>
+          <Image
+            src="/img/soundmoods-thumb.jpg"
+            alt="component-card"
+            width={688}
+            height={279}
+            className={stylesComponent.cardImg}
+          />
+          <p className={stylesComponent.cardTag}>UI · MOBILE · MUSIC</p>
+          <Link href="/soundMoods">
+            <a className={stylesComponent.cardTitle}>Sound Moods &#8594;</a>
+          </Link>
+        </div>
         <Link href="/baku">
           <div className={stylesComponent.cardMini}>
             <Image
@@ -102,7 +104,9 @@ export default function Home() {
             />
             <p className={stylesComponent.cardTag}>UI · UX · ECOMMERCE</p>
             <Link href="/baku">
-              <a className={stylesComponent.cardTitle}>Bakú Beachwear &#8594;</a>
+              <a className={stylesComponent.cardTitle}>
+                Bakú Beachwear &#8594;
+              </a>
             </Link>
           </div>
         </Link>
@@ -132,7 +136,9 @@ export default function Home() {
             />
             <p className={stylesComponent.cardTag}>UI · TRANSPORT</p>
             <Link href="/cityTransport">
-              <a className={stylesComponent.cardTitle}>City Transport &#8594;</a>
+              <a className={stylesComponent.cardTitle}>
+                City Transport &#8594;
+              </a>
             </Link>
           </div>
         </Link>
@@ -145,7 +151,7 @@ export default function Home() {
             className={stylesComponent.cardImg}
           />
           <p className={stylesComponent.cardTag}>UI · UX</p>
-          <Link href="/cityTransport">
+          <Link href="/gazette">
             <a className={stylesComponent.cardTitle}>State Gazette &#8594;</a>
           </Link>
         </div>
