@@ -144,7 +144,7 @@ export default function Home() {
         </Link>
         <div className={stylesComponent.cardMini}>
           <Image
-            src="/img/cityapp-thumb.jpg"
+            src="/img/gazette-thumb.jpg"
             alt="component-card"
             width={310}
             height={279}
@@ -153,20 +153,6 @@ export default function Home() {
           <p className={stylesComponent.cardTag}>UI · UX</p>
           <Link href="/gazette">
             <a className={stylesComponent.cardTitle}>State Gazette &#8594;</a>
-          </Link>
-        </div>
-
-        <div className={stylesComponent.card}>
-          <Image
-            src="/img/soundmoods-thumb.jpg"
-            alt="component-card"
-            width={688}
-            height={279}
-            className={stylesComponent.cardImg}
-          />
-          <p className={stylesComponent.cardTag}>UI · Vue.js</p>
-          <Link href="/cityTransport">
-            <a className={stylesComponent.cardTitle}>Components &#8594;</a>
           </Link>
         </div>
       </div>

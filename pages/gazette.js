@@ -166,6 +166,28 @@ export default function soundMoods() {
               height={1526.08}
             />
           </div>
+          <p className={stylesProject.text}>
+            The search tools would be gathered in a secondary tab menu.
+            <br />
+            The results of each search are displayed under the tool as an
+            infinite scroll list. Each list item would open a PDF file, and
+            sometimes a file is linked to multiple results but direct to a
+            certain page.
+          </p>
+          <div className={stylesProject.imgContainer}>
+            <Image
+              src="/img/gazette/searchResults.png"
+              alt="state-gazette-app-search-results"
+              width={1440}
+              height={2362.45}
+            />
+          </div>
+          <br />
+          <br />
+          <p className={stylesProject.text}>
+            The project still remains in a building phase, since there&apos;s a
+            section missing to receive feedback from the users.
+          </p>
         </div>
       </main>
 
