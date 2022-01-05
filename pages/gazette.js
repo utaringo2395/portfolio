@@ -25,12 +25,12 @@ export default function soundMoods() {
         </div>
 
         <div className={stylesProject.body}>
+          <p className={stylesProject.description}>UI, UX</p>
           <p className={stylesProject.subtext}>Design Team</p>
           <p className={stylesProject.text}>
             José María Armendariz <br />
             Mariana Macías
           </p>
-          <p className={stylesProject.description}>UI, UX</p>
           <p className={stylesProject.text}>
             The Official State Gazette and State Norms Library is a website made
             for the public consultation of the rules and statutes of the state
