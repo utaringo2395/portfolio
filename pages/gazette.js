@@ -9,7 +9,7 @@ export default function soundMoods() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Sound Moods | mmmacias</title>
+        <title>State Gazette | mmmacias</title>
         <meta name="description" content="Mariana M. | Web Designer" />
         <link rel="icon" href="/mmm.ico" />
 
