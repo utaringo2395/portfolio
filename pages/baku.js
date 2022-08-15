@@ -4,6 +4,7 @@ import Link from "next/link";
 import styles from "../styles/Home.module.css";
 import stylesProject from "../styles/Project.module.css";
 import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 
 export default function baku() {
   return (
@@ -135,9 +136,7 @@ export default function baku() {
         </div>
       </main>
 
-      <footer className={styles.footer}>
-        <p className="text-center">©2021 mmmacias</p>
-      </footer>
+      <Footer />
     </div>
   );
 }

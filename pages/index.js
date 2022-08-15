@@ -4,12 +4,13 @@ import Link from "next/link";
 import styles from "../styles/Home.module.css";
 import stylesComponent from "../styles/Component.module.css";
 import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 
 export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>mmmacias | Web designer</title>
+        <title>mmmacias | UI designer</title>
         <meta name="description" content="Mariana M. | Web Designer" />
         <link rel="icon" href="/mmm.ico" />
 
@@ -24,7 +25,7 @@ export default function Home() {
         <div className={styles.mainText}>
           <h1 className={styles.title}>I&apos;m Mariana</h1>
           <p className={styles.description}>
-            Web Designer & aspiring Front-end Developer.
+            UI Designer.
           </p>
           <Link href="#work">
             <a href="#work" className={styles.cta}>
@@ -80,52 +81,37 @@ export default function Home() {
       </div>
 
       <div className={styles.work} id="work">
-        <div className={stylesComponent.card}>
-          <Image
-            src="/img/soundmoods-thumb.jpg"
-            alt="component-card"
-            width={688}
-            height={279}
-            className={stylesComponent.cardImg}
-          />
-          <p className={stylesComponent.cardTag}>UI · MOBILE · MUSIC</p>
-          <Link href="/soundMoods">
-            <a className={stylesComponent.cardTitle}>Sound Moods &#8594;</a>
-          </Link>
-        </div>
-        <Link href="/baku">
+        <Link href="/soundMoods" passHref>
+          <div className={stylesComponent.card}>
+            <Image
+              src="/img/soundmoods-thumb.jpg"
+              alt="component-card"
+              width={688}
+              height={279}
+              className={stylesComponent.cardImg}
+            />
+            <p className={stylesComponent.cardTag}>UI · MOBILE · MUSIC</p>
+            <Link href="/soundMoods">
+              <a className={stylesComponent.cardTitle}>Sound Moods &#8594;</a>
+            </Link>
+          </div>
+        </Link>
+        <Link href="/gazette" passHref>
           <div className={stylesComponent.cardMini}>
             <Image
-              src="/img/bakubeach-thumb.jpg"
+              src="/img/gazette-thumb.jpg"
               alt="component-card"
               width={310}
               height={279}
               className={stylesComponent.cardImg}
             />
-            <p className={stylesComponent.cardTag}>UI · UX · ECOMMERCE</p>
-            <Link href="/baku">
-              <a className={stylesComponent.cardTitle}>
-                Bakú Beachwear &#8594;
-              </a>
+            <p className={stylesComponent.cardTag}>UI · UX</p>
+            <Link href="/gazette">
+              <a className={stylesComponent.cardTitle}>State Gazette &#8594;</a>
             </Link>
           </div>
         </Link>
-        <Link href="/autonomous">
-          <div className={stylesComponent.cardMini}>
-            <Image
-              src="/img/autonomous-thumb.jpg"
-              alt="component-card"
-              width={310}
-              height={279}
-              className={stylesComponent.cardImg}
-            />
-            <p className={stylesComponent.cardTag}>UI · UX · EDUCATION</p>
-            <Link href="/autonomous">
-              <a className={stylesComponent.cardTitle}>Autonomous &#8594;</a>
-            </Link>
-          </div>
-        </Link>
-        <Link href="/cityTransport">
+        <Link href="/cityTransport" passHref>
           <div className={stylesComponent.cardMini}>
             <Image
               src="/img/cityapp-thumb.jpg"
@@ -142,24 +128,42 @@ export default function Home() {
             </Link>
           </div>
         </Link>
-        <div className={stylesComponent.cardMini}>
-          <Image
-            src="/img/gazette-thumb.jpg"
-            alt="component-card"
-            width={310}
-            height={279}
-            className={stylesComponent.cardImg}
-          />
-          <p className={stylesComponent.cardTag}>UI · UX</p>
-          <Link href="/gazette">
-            <a className={stylesComponent.cardTitle}>State Gazette &#8594;</a>
-          </Link>
-        </div>
+        
+        <Link href="/baku" passHref>
+          <div className={stylesComponent.cardMini}>
+            <Image
+              src="/img/bakubeach-thumb.jpg"
+              alt="component-card"
+              width={310}
+              height={279}
+              className={stylesComponent.cardImg}
+            />
+            <p className={stylesComponent.cardTag}>UI · UX · ECOMMERCE</p>
+            <Link href="/baku">
+              <a className={stylesComponent.cardTitle}>
+                Bakú Beachwear &#8594;
+              </a>
+            </Link>
+          </div>
+        </Link>
+        <Link href="/autonomous" passHref>
+          <div className={stylesComponent.cardMini}>
+            <Image
+              src="/img/autonomous-thumb.jpg"
+              alt="component-card"
+              width={310}
+              height={279}
+              className={stylesComponent.cardImg}
+            />
+            <p className={stylesComponent.cardTag}>UI · UX · EDUCATION</p>
+            <Link href="/autonomous">
+              <a className={stylesComponent.cardTitle}>Autonomous &#8594;</a>
+            </Link>
+          </div>
+        </Link>
       </div>
 
-      <footer className={styles.footer}>
-        <p className="text-center">©2021 mmmacias</p>
-      </footer>
+      <Footer/>
     </div>
   );
 }

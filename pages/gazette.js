@@ -4,6 +4,7 @@ import Link from "next/link";
 import styles from "../styles/Home.module.css";
 import stylesProject from "../styles/Project.module.css";
 import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 
 export default function soundMoods() {
   return (
@@ -77,6 +78,9 @@ export default function soundMoods() {
           </div>
           <p className={stylesProject.imgDesc}>Screen at 991px wide.</p>
           <br />
+          <p className={stylesProject.imgDesc}>
+            Main Official State Gazette redesign proposal.
+          </p>
           <p className={stylesProject.text}>
             The first redesign proposal was based on the new design guidelines,
             such as fonts and colors.
@@ -90,12 +94,10 @@ export default function soundMoods() {
               src="/img/gazette/redesign1.png"
               alt="main-page-state-gazette-redesign-proposal"
               width={1440}
-              height={2714.4}
+              height={2222}
             />
           </div>
-          <p className={stylesProject.imgDesc}>
-            Main Official State Gazette redesign proposal.
-          </p>
+          
           <p className={stylesProject.text}>
             For the search tools, we made a tabed section, so we could have
             multiple types of search without having the problem of overlapping
@@ -103,24 +105,13 @@ export default function soundMoods() {
           </p>
           <div className={stylesProject.imgContainer}>
             <Image
-              src="/img/gazette/searchtypes.png"
+              src="/img/gazette/responsive.png"
               alt="state-gazette-search-types"
               width={1440}
-              height={1881}
+              height={3326}
             />
           </div>
-          <p className={stylesProject.imgDesc}>Search tools for desktop.</p>
-          <div className={stylesProject.imgContainer}>
-            <Image
-              src="/img/gazette/searchtypesMobile.png"
-              alt="state-gazette-search-types"
-              width={1440}
-              height={1054}
-            />
-          </div>
-          <p className={stylesProject.imgDesc}>
-            Search tools responsive on mobile.
-          </p>
+          
           <br />
           <p className={stylesProject.text}>
             After presenting the redesign proposal, we were told that the
@@ -135,27 +126,25 @@ export default function soundMoods() {
             Fortunately, most of the architecture was solved in the website
             redesign, so we just had to figure out which Android and iOS
             components would be convenient to use, and also talk with the
-            developers to get the services that manage all the information in
-            the displayed in the State Gazette.
+            developers to get the services that manage all the information displayed in the State Gazette.
+            
+            
           </p>
-          <p className={stylesProject.description}>Tabs for Android and iOS</p>
+          <p className={stylesProject.description}>Mini Design System: Setting the styles.</p>
           <p className={stylesProject.text}>
             Based on Android&apos;s Material Design and iOS Apple Design
-            Resources, we selected the tabs that would be used in the main menu
-            and sub menu for the search tools.
+            Resources, we selected the components to set the search tools and sections that would be needed inside the app. 
+            <br/>
+            We made a mini design system, creating new components, but also reusing the ones that where set in the general Aguascalientes State Design System.
           </p>
-          <div className={stylesProject.imgContainer}>
-            <Image
-              src="/img/gazette/tabs.png"
-              alt="state-gazette-app-tabs"
-              width={879}
-              height={624}
-            />
+
+          <div className={stylesProject.figmaEmbed}>
+          <iframe width="1000" height="750" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2Frj91tnJt0AwRoUHGSIeLtq%2FApp-Peri%25C3%25B3dico%252FNormateca%3Fnode-id%3D112%253A3092" allowFullScreen></iframe>
           </div>
+
           <p className={stylesProject.text}>
             Just as in the proposal of the responsive design, we would use tabs
-            to organize the two sections, a main screen to describe them and
-            have the contact of the agencies in charge of managing the State
+            to organize sections, a main screen to describe the use of the tools, the POE tool, Normateca tool, and contact tab of the agencies in charge of managing the State
             Gazette information.
           </p>
           <div className={stylesProject.imgContainer}>
@@ -163,7 +152,7 @@ export default function soundMoods() {
               src="/img/gazette/mainscreens.png"
               alt="state-gazette-app-main-screens"
               width={1440}
-              height={1526.08}
+              height={785}
             />
           </div>
           <p className={stylesProject.text}>
@@ -179,21 +168,31 @@ export default function soundMoods() {
               src="/img/gazette/searchResults.png"
               alt="state-gazette-app-search-results"
               width={1440}
-              height={2362.45}
+              height={1965}
             />
           </div>
           <br />
           <br />
           <p className={stylesProject.text}>
-            The project still remains in a building phase, since there&apos;s a
-            section missing to receive feedback from the users.
+            The project is up at the {" "}
+            <Link
+              href="https://apps.apple.com/mx/app/poe-normateca/id1607342121"
+              rel="noopener noreferrer"
+            >
+              <a className={stylesProject.workLink}>App Store</a>
+              
+            </Link> and {" "}
+            <Link
+              href="https://play.google.com/store/apps/details?id=mx.gob.aguascalientes.normateca&hl=es_MX&gl=US"
+              rel="noopener noreferrer"
+            >
+              <a className={stylesProject.workLink}>Google Play Store</a>
+            </Link>
           </p>
         </div>
       </main>
 
-      <footer className={styles.footer}>
-        <p className="text-center">©2021 mmmacias</p>
-      </footer>
+      <Footer/>
     </div>
   );
 }

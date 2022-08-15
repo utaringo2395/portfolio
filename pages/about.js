@@ -4,6 +4,7 @@ import Link from "next/link";
 import styles from "../styles/Home.module.css";
 import stylesAbout from "../styles/About.module.css";
 import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 
 export default function about() {
   return (
@@ -17,19 +18,18 @@ export default function about() {
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
       </Head>
       <header className="msticky top-0 z-50">
-        <Navbar></Navbar>
+        <Navbar/>
       </header>
 
       <main className={stylesAbout.mainAbout}>
         <div className={stylesAbout.mainTextAbout}>
           <h1 className={styles.title}> I&apos;m Mariana</h1>
           <p className={styles.description}>
-            Web Designer & aspiring Front-end Developer.
+            UI Designer.
           </p>
           <br />
           <p className={stylesAbout.bodyText}>
-            Hey! I&apos;m Mariana Macías, 26. Web designer and an enthusiast of
-            front-end development.{" "}
+            Hey! I&apos;m Mariana Macías, 27yo. UI Designer, and enthusiast of web development. {" "}
           </p>
           <br />
           <p className={stylesAbout.bodyText}>
@@ -60,9 +60,8 @@ export default function about() {
           </ul>
           <br />
           <p className={stylesAbout.bodyText}>
-            I&apos;ve learned HTML and CSS with online courses and help from fellow
-            friends and work colleagues. Recently learning JS and some other
-            libraries, such as Vue, React, and React frameworks like Next.js
+            Designing prototypes for apps and website is my main thing, at the same time, designing and setting design systems.  <br/>
+            I&apos;ve learned HTML and CSS mainly to understand the behaviour of components, and have a better development.
           </p>
           <br />
           <p className={stylesAbout.bodyText}>
@@ -78,19 +77,16 @@ export default function about() {
             This is just a little bit about me! Go and check out some of my{" "}
             <Link
               href="/#work"
-              className={stylesAbout.workLink}
               rel="noopener noreferrer"
             >
-              work
+              <a className={stylesAbout.workLink}>work</a>
             </Link>{" "}
             :)
           </p>
         </div>
       </main>
 
-      <footer className={styles.footer}>
-        <p className="text-center">©2021 mmmacias</p>
-      </footer>
+      <Footer/>
     </div>
   );
 }

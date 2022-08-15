@@ -4,6 +4,7 @@ import Link from "next/link";
 import styles from "../styles/Home.module.css";
 import stylesContact from "../styles/Contact.module.css";
 import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 
 export default function contact() {
   return (
@@ -72,9 +73,7 @@ export default function contact() {
           </a>
         </div>
       </main>
-      <footer className={styles.footer}>
-        <p className="text-center">©2021 mmmacias</p>
-      </footer>
+      <Footer/>
     </div>
   );
 }
