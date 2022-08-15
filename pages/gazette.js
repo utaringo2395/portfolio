@@ -97,8 +97,7 @@ export default function soundMoods() {
               height={2222}
             />
           </div>
-          <p className={stylesProject.imgDesc}>Design foor mobile and tablet sizes.</p>
-          <br/>
+          
           <p className={stylesProject.text}>
             For the search tools, we made a tabed section, so we could have
             multiple types of search without having the problem of overlapping
@@ -114,7 +113,7 @@ export default function soundMoods() {
           </div>
           
           <br />
-          <p className={stylesProject.text}></p>
+          
           <p className={stylesProject.text}>
             After presenting the redesign proposal, our client made the suggestion to make an app. We were aware that it would be an app used by a certain kind of user.
           </p>
