@@ -92,7 +92,7 @@ export default function Home() {
             />
             <p className={stylesComponent.cardTag}>UI · DESIGN SYSTEM</p>
             <Link href="/geaSystem">
-              <a className={stylesComponent.cardTitle}>GEA Design System &#8594;</a>
+              <a className={stylesComponent.cardTitle}>GEA DS &#8594;</a>
             </Link>
           </div>
         </Link>
