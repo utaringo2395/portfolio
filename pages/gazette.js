@@ -11,7 +11,7 @@ export default function soundMoods() {
     <div className={styles.container}>
       <Head>
         <title>State Gazette | mmmacias</title>
-        <meta name="description" content="Mariana M. | Web Designer" />
+        <meta name="description" content="Mariana M. | UI Designer" />
         <link rel="icon" href="/mmm.ico" />
 
         <link rel="preconnect" href="https://fonts.googleapis.com" />

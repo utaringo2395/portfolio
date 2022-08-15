@@ -11,7 +11,7 @@ export default function cityTransport() {
     <div className={styles.container}>
       <Head>
         <title>City Transport | mmmacias</title>
-        <meta name="description" content="Mariana M. | Web Designer" />
+        <meta name="description" content="Mariana M. | UI Designer" />
         <link rel="icon" href="/mmm.ico" />
 
         <link rel="preconnect" href="https://fonts.googleapis.com" />
