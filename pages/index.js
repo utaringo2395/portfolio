@@ -81,18 +81,18 @@ export default function Home() {
       </div>
 
       <div className={styles.work} id="work">
-        <Link href="/soundMoods" passHref>
+        <Link href="/geaSystem" passHref>
           <div className={stylesComponent.card}>
             <Image
-              src="/img/soundmoods-thumb.jpg"
+              src="/img/gea-thumb.jpg"
               alt="component-card"
               width={688}
               height={279}
               className={stylesComponent.cardImg}
             />
-            <p className={stylesComponent.cardTag}>UI · MOBILE · MUSIC</p>
-            <Link href="/soundMoods">
-              <a className={stylesComponent.cardTitle}>Sound Moods &#8594;</a>
+            <p className={stylesComponent.cardTag}>UI · DESIGN SYSTEM</p>
+            <Link href="/geaSystem">
+              <a className={stylesComponent.cardTitle}>GEA Design System &#8594;</a>
             </Link>
           </div>
         </Link>
@@ -128,7 +128,21 @@ export default function Home() {
             </Link>
           </div>
         </Link>
-        
+        <Link href="/soundMoods" passHref>
+          <div className={stylesComponent.card}>
+            <Image
+              src="/img/soundmoods-thumb.jpg"
+              alt="component-card"
+              width={688}
+              height={279}
+              className={stylesComponent.cardImg}
+            />
+            <p className={stylesComponent.cardTag}>UI · MOBILE · MUSIC</p>
+            <Link href="/soundMoods">
+              <a className={stylesComponent.cardTitle}>Sound Moods &#8594;</a>
+            </Link>
+          </div>
+        </Link>
         <Link href="/baku" passHref>
           <div className={stylesComponent.cardMini}>
             <Image

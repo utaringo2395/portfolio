@@ -18,7 +18,7 @@ export default function soundMoods() {
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
       </Head>
       <header className="msticky top-0 z-50">
-        <Navbar></Navbar>
+        <Navbar/>
       </header>
       <main className={stylesProject.main}>
         <div className={stylesProject.headerGazette}>
@@ -138,7 +138,7 @@ export default function soundMoods() {
           </p>
 
           <div className={stylesProject.figmaEmbed}>
-          <iframe width="1000" height="750" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2Frj91tnJt0AwRoUHGSIeLtq%2FApp-Peri%25C3%25B3dico%252FNormateca%3Fnode-id%3D112%253A3092" allowFullScreen></iframe>
+            <iframe width="1000" height="750" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2Frj91tnJt0AwRoUHGSIeLtq%2FApp-Peri%25C3%25B3dico%252FNormateca%3Fnode-id%3D112%253A3092" allowFullScreen></iframe>
           </div>
 
           <p className={stylesProject.text}>
